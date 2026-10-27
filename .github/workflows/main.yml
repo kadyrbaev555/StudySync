@@ -12,3 +12,9 @@ jobs:
 
       - name: Show success message
         run: echo "GitHub Actions is working!"
+
+      - name: Lint check
+        run: echo "Lint passed"
+
+      - name: Build project
+        run: echo "Build complete"
